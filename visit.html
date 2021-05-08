@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Community Science Museum</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Rune Runnestø">
+    <!--A quick fix to make the browser scale down the web page to fit the screen-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CDN-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Google CDN for jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--Font Awesome-->
+    <script src="https://use.fontawesome.com/9666c64b66.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!--Linking to the CSS style file-->
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+    <!--Spanning the entire width of the viewport-->
+    <div class="container-fluid">
+        <!-- Header -->
+
+        <header>
+
+            <!-- Navbar -->
+            <nav class="navbar navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                        <a href="index.html" class="navbar-brand"><img src="images/logo/logo.png" class="img-responsive"
+                                id="logo"></a>
+
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="visible-xs">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="explore.html">Explore</a></li>
+                            <li><a href="exhibitions.html">Exhibitions</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a class="active" href="visit.html">Visit<span class="sr-only">(current)</span></a></li>
+                            <li><a href="involved.html">Get Involved</a></li>
+                        </ul>
+                    </div> <!-- /.navbar-collapse -->
+                </div> <!-- /.container-fluid -->
+            </nav>
+            <br>
+            <br>
+
+            <div class="header-text">
+                <h1>Community Science Museum</h1>
+                <br>
+                <h2>"Explore Together"</h2>
+            </div>
+        </header>
+
+        <main>
+            <section>
+                <div class="visit-box-1 color-box" id="google-map">
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h2>Location: Google maps showing the location of the Museum in Oslo</h2>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe title="Map of the location of Community Science Museum in Oslo"
+                                    src="https://www.google.no/maps/place/Kjels%C3%A5sveien+143,+0491+Oslo/@59.9663963,10.7805223,17z/data=!3m1!4b1!4m5!3m4!1s0x464171e7ed1e997b:0xdea4421d7d285a7b!8m2!3d59.9663963!4d10.7827163"
+                                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+
+                <article>
+                    <div class="visit-box-2 color-box" id="admission">
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <h2>Admission</h2>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                <div class="booking-guided-tour">
+                                    <h3>Various practical info</h3>
+                                </div>
+                                <br>
+                                <p>The entrance is free for all.</p>
+                                <br>
+                                <p>There are guided tours of the museum that leave every hour.</p>
+                                <br>
+                                <p>These tours are 70 NOK per person and include a handy printed guide of the museum.
+                                </p>
+                                <br>
+                                <p>If you would like to organise a guided tour for your group of 6 or more people,
+                                    please contact us to arrange the tour.</p>
+                                <br>
+                                <p>In the form to the right you can tell us how many participants you will be.</p>
+                                <br>
+                                <p>You may also leave us a message in the text field.</p>
+
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                                <div class="booking-guided-tour">
+                                    <h3>Book Guided Tour</h3>
+                                </div>
+                                <form class="form-horizontal">
+                                    <br>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-offset-1 col-sm-2" for="first name">First
+                                            Name:</label>
+                                        <div class="col-sm-6">
+                                            <input type="text" class="form-control" id="first name" aria-required="true"
+                                                placeholder="Enter first name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-offset-1 col-sm-2" for="last name">Last
+                                            Name:</label>
+                                        <div class="col-sm-6">
+                                            <input type="text" class="form-control" id="last name" aria-required="true"
+                                                placeholder="Enter last name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-offset-1 col-sm-2" for="email">Email:</label>
+                                        <div class="col-sm-6">
+                                            <input type="text" class="form-control" id="email" aria-required="true"
+                                                placeholder="Enter email">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-offset-1 col-sm-2" for="phone">Phone
+                                            Number:</label>
+                                        <div class="col-sm-6">
+                                            <input type="text" class="form-control" id="phone" aria-required="true"
+                                                placeholder="Enter phone number">
+                                        </div>
+                                    </div>
+                                    <fieldset class="form-group">
+                                        <label class="control-label col-sm-offset-1 col-sm-2">Participants:</label>
+                                        <div class="col-sm-6">
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="radio" name="gridRadios"
+                                                        id="gridRadios1" value="option1" role="checkbox"> 1-5 persons
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="radio" name="gridRadios"
+                                                        id="gridRadios2" value="option2" role="checkbox"> 6-10 persons
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="radio" name="gridRadios"
+                                                        id="gridRadios3" value="option3" role="checkbox"> 10-15 persons
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                    <input class="form-check-input" type="radio" name="gridRadios"
+                                                        id="gridRadios4" value="option4" role="checkbox"> Over 15
+                                                    persons
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-offset-1 col-sm-2"
+                                            for="message">Message:</label>
+                                        <div class="col-sm-6">
+                                            <textarea class="form-control" rows="3" id="message"
+                                                placeholder="Enter message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-3 col-sm-10">
+                                            <button type="submit" class="btn btn-submit" id="submitbtn"
+                                                role="button">Submit</button>
+                                        </div>
+                                    </div>
+                                    <br>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="visit-box-3 color-box" id="opening-hours">
+                        <br>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <h2>Opening Hours at the Museum</h2>
+                                <br>
+                                <br>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <div class="hours">
+                                        <ul class="unstyled">
+                                            <li>
+                                                <h3>Monday: Closed</h3>
+                                            </li>
+                                            <li>
+                                                <h3>Tuesday: 10:00 - 16:00</h3>
+                                            </li>
+                                            <li>
+                                                <h3>Wednesday: 10:00 - 16:00</h3>
+                                            </li>
+                                            <li>
+                                                <h3>Thursday: 10:00 - 16:00</h3>
+                                            </li>
+                                            <li>
+                                                <h3>Friday: 09:00 - 16:00</h3>
+                                            </li>
+                                            <li>
+                                                <h3>Saturday: 10:00 - 16:00</h3>
+                                            </li>
+                                            <li>
+                                                <h3>Sunday: 09:00 - 13:00</h3>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                    <img class="img-responsive" src="images/visit/visit_museum_09.jpg"
+                                        alt="We welcome you with open arms">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <article>
+                        <div class="visit-box-4 color-box" id="accessibility">
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h2>Accessibility</h2>
+                                    <p>The museum has wheelchair accessibility ramps. It also has audio guides and
+                                        braille display signs for the visually
+                                        impaired.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <img class="img-responsive" src="images/visit/visit_museum_11.jpg"
+                                        alt="We offer Braille for the blind and partially sighted">
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <img class="img-responsive" src="images/visit/visit_museum_12.jpg"
+                                        alt="With a wheelchair you can get anywhere in the Museum">
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <img class="img-responsive" src="images/visit/visit_museum_13.jpg"
+                                        alt="We offer aids for visitors with hearing loss">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="visit-box-5 color-box" id="food-and-drink">
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h2>Food and drink</h2>
+                                    <p>There is a café attached to the museum where you can get light lunches, soft
+                                        drinks, coffee, snacks and more.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <img class="img-responsive" src="images/visit/visit_museum_14.jpg"
+                                        alt="The restaurant in the Museum">
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <img class="img-responsive" src="images/visit/visit_museum_15.jpg"
+                                        alt="A plate of dinner">
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <img class="img-responsive" src="images/visit/visit_museum_16.jpg"
+                                        alt="Cold table where guests can provide themselves with food">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="visit-box-6 color-box" id="shop">
+                            <br>
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <h2>Shop</h2>
+                                    <p>Our shop offers a range of memorabilia from the museum as well as great gifts and
+                                        activity packs that allow you to
+                                        continue to explore science even after you’ve left the museum.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <img class="img-responsive" src="images/visit/visit_museum_17.jpg"
+                                        alt="A happy couple who have bought goods in the Museum">
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <img class="img-responsive" src="images/visit/visit_museum_18.jpg"
+                                        alt="A customer on her way home with products she has bought in the Museum">
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <img class="img-responsive" src="images/visit/visit_museum_19.jpg"
+                                        alt="Two ladies who have shopped in the Museum">
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+            </section>
+        </main>
+    </div>
+
+
+    <footer>
+        <!-- Footer -->
+        <div class="row container-fluid">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <br>
+                <div class="footer-icons">
+                    <a href="#"><i class="fa fa-facebook-square" style="font-size:45px;color:#009FFC"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square" style="font-size:45px;color:lightblue"></i></a>
+                    <a href="#"><i class="fa fa-youtube-square" style="font-size:45px;color:#FF4311"></i></a>
+                    <a href="#"><i class="fa fa-linkedin-square" style="font-size:45px;color: #25E1F5"></i></a>
+                    <a href="#"><i class="fa fa-instagram" style="font-size:45px;color:lightcoral"></i></a>
+                </div>
+                <div class="footer-text">
+                    <p>Community Science Museum</p>
+                    <a href="#" target="_blank">Copyright &copy;</a> |
+                    <a href="#" target="_blank">Privacy</a> |
+                    <a href="#" target="_blank">Terms of use</a> |
+                    <a href="#" target="_blank">Legal</a> |
+                </div>
+                <br>
+            </div>
+        </div> <!-- /.container-fluid -->
+    </footer>
+
+    </div> <!-- /.container-fluid -->
+
+</body>
+
+</html>
